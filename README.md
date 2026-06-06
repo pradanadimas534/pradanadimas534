@@ -19,12 +19,7 @@
 
 ## 👨‍💻 About Me
 
-- 🎓 Information Technology Student
-- 💻 Interested in Web Development, Mobile Development, and Artificial Intelligence
-- 🚀 Currently working on AI-powered applications and recommendation systems
-- 🌱 Learning Deep Learning, TensorFlow, FastAPI, and Cloud Deployment
-- 📱 Building applications using Flutter and Laravel
-- 🎯 Goal: Become a Full-Stack AI Engineer
+menunggu di lamar anda
 
 ---
 
