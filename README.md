@@ -21,13 +21,11 @@
 
 menunggu di lamar anda
 
----
 
 ## 🚀 Languages & Technologies
 
 belum di konfigurasi
 
----
 
 ## 🔥 GitHub Streak
 
@@ -35,7 +33,6 @@ belum di konfigurasi
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=pradanadimas534&theme=tokyonight" />
 </p>
 
----
 
 ## 📈 Contribution Graph
 
@@ -43,7 +40,6 @@ belum di konfigurasi
   <img src="https://raw.githubusercontent.com/pradanadimas534/pradanadimas534/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </p>
 
----
 
 ## 📫 Connect With Me
 
