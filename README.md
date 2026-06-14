@@ -8,13 +8,6 @@
   <!-- 🌸 Judul aestetik -->
   <h2>こんにちは — Welcome to My World 🌏</h2>
 </div>
-
-<p align="center">
-  <em>
-    "Exploring code like navigating constellations — one star (bug) at a time."
-  </em>
-</p>
-
 ---
 
 ## 👨‍💻 About Me
