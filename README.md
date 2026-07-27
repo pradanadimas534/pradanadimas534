@@ -5,7 +5,7 @@
 
 <img src="https://github.com/user-attachments/assets/4e9e658a-7d5d-4ec4-9327-3259571e3f8a" width="110" height="110" align="left" />
 
-&nbsp;&nbsp;&nbsp;&nbsp; ACC Aku Admin "/
+&nbsp;&nbsp;&nbsp;&nbsp; Ajak Aku Admin "/
 
 &nbsp;&nbsp;&nbsp;&nbsp; IG :https://www.instagram.com/dimasukalcoa/
 &nbsp;&nbsp;&nbsp;&nbsp; FB :https://www.facebook.com/dimasukashiroko
