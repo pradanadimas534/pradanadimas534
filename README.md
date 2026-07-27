@@ -13,3 +13,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp; X  :https://x.com/Dimasukabakwan
 
 <br clear="all" />
+
+
+<div>
+  info lainnya di sebelah.....
+</div>
