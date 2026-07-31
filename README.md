@@ -7,11 +7,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp; Ajak Aku Admin "/
 
-&nbsp;&nbsp;&nbsp;&nbsp; IG :https://www.instagram.com/dimasukalcoa/
-&nbsp;&nbsp;&nbsp;&nbsp; FB :https://www.facebook.com/dimasukashiroko
-
-&nbsp;&nbsp;&nbsp;&nbsp; X  :https://x.com/Dimasukabakwan
-
 <br clear="all" />
 
 
