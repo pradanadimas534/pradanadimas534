@@ -6,16 +6,13 @@
 
 <br>
 
-<h3>💻 Vibe Coding</h3>
+### 💻 Vibe Coding
 
-<p>
-yang penting kerja.<br>
-kalau error ya diperbaiki.<br>
-kalau nggak tahu ya dicari.<br>
-kalau masih error... ya kerja lagi. 💀
-</p>
+disuruh ngoding saya ikut.<br>
+disuruh benerin sistem saya ikut.<br>
+disuruh nggak tidur 4 hari saya juga ikut.
 
-<br>
+<br><br>
 
 <img src="https://skillicons.dev/icons?i=php,laravel,js,react,vite,tailwind,python,mysql,git,github" />
 
@@ -26,12 +23,15 @@ kalau masih error... ya kerja lagi. 💀
 ---
 
 <div align="center">
-
+  
 <img src="https://github.com/user-attachments/assets/4e9e658a-7d5d-4ec4-9327-3259571e3f8a" width="110" />
 
-
-### Thanks for visiting 👋
-
-`see you in another commit`
+<br><br>
+  
+tetapi kalo saya tidak di ijinkan lihat Shiroko saya sampaikan.....
+  
+<br>
+  
+### **SAYA AKAN LAWAN!!!!!**
 
 </div>
