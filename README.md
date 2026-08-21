@@ -12,11 +12,9 @@ disuruh ngoding saya ikut.<br>
 disuruh benerin sistem saya ikut.<br>
 disuruh nggak tidur 4 hari saya juga ikut.
 
+<div align="center">
+
 <br>
-
-<sub>yang penting kerja, urusan benar atau salah belakangan.</sub>
-
-<br><br>
 
 <img src="https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128" width="42" />
 &nbsp;&nbsp;&nbsp;
@@ -37,58 +35,19 @@ disuruh nggak tidur 4 hari saya juga ikut.
 <img src="https://cdn.simpleicons.org/githubcopilot" width="45" />
 &nbsp;&nbsp;
 <img src="https://www.google.com/s2/favicons?domain=code.visualstudio.com&sz=128" width="42" />
+&nbsp;&nbsp;
 
-<br><br>
-
----
-
-### 🧑‍💻 sedikit tentang saya
-
-kadang bikin website.<br>
-kadang bikin sistem.<br>
-kadang main AI.<br>
-kadang buka VS Code cuma buat bengong.
-
-<br>
-
-kalau ada ide ya dibuat.<br>
-kalau error ya dicari.<br>
-kalau nggak ketemu... tanya AI.
-
-<br><br>
-
-### 🧠 isi kepala saat ngoding
-
-```text
-ide → ngoding → error → google → AI → error lagi
-                         ↓
-                    "AKAN SAYA LAWAN"
-```
-
-<br>
-
-### 📊 github saya
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
-
-<br><br>
+</div>
 
 ---
 
 <div align="center">
-
+  
 <img src="https://github.com/user-attachments/assets/4e9e658a-7d5d-4ec4-9327-3259571e3f8a" width="110" />
-
 <br><br>
-
 Ajak Aku admin....
-
 <br>
-
+  
 ### **THANKS FOR YOUR VISIT**
-
-</div>
 
 </div>
