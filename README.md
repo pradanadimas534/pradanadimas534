@@ -6,7 +6,7 @@
 
 <br>
 
-### 💻 wONG GABUT OJO DI RUNGAKNE
+### 💻 WONG GABUT OJO DI RUNGAKNE
 
 disuruh ngoding saya ikut.<br>
 disuruh benerin sistem saya ikut.<br>
