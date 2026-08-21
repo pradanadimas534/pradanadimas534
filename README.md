@@ -24,6 +24,8 @@ disuruh nggak tidur 4 hari saya juga ikut.
 &nbsp;&nbsp;
 <img src="https://www.google.com/s2/favicons?domain=blackbox.ai&sz=128" width="42" />
 &nbsp;&nbsp;&nbsp;
+<img src="https://www.google.com/s2/favicons?domain=deepseek.com&sz=128" width="42" />
+&nbsp;&nbsp;&nbsp;
 <img src="https://www.google.com/s2/favicons?domain=groq.com&sz=128" width="42" />
 &nbsp;&nbsp;&nbsp;
 <img src="https://cdn.simpleicons.org/x" width="45" />
