@@ -25,11 +25,8 @@ disuruh nggak tidur 4 hari saya juga ikut.
 <div align="center">
   
 <img src="https://github.com/user-attachments/assets/4e9e658a-7d5d-4ec4-9327-3259571e3f8a" width="110" />
-
 <br><br>
-  
 Ajak Aku admin....
-  
 <br>
   
 ### **THANKS FOR YOUR VISIT**
