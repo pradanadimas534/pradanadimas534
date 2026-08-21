@@ -28,10 +28,10 @@ disuruh nggak tidur 4 hari saya juga ikut.
 
 <br><br>
   
-tetapi kalo saya tidak di ijinkan lihat Shiroko saya sampaikan.....
+Ajak Aku admin....
   
 <br>
   
-### **SAYA AKAN LAWAN!!!!!**
+### **THANKS FOR YOUR VISIT**
 
 </div>
