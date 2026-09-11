@@ -64,6 +64,6 @@ Sometimes it all starts with **being bored**, opening a prompt, trying random st
 
 <img src="https://github.com/user-attachments/assets/4e9e658a-7d5d-4ec4-9327-3259571e3f8a" width="110" />
   
-### **ADA PROJECT HUBUNGI AKU MIN🔰**
+### **ADA PROJECT HUBUNGI AKU MIN 📞**
 
 </div>
