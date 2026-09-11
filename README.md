@@ -50,7 +50,11 @@ Sometimes it all starts with **being bored**, opening a prompt, trying random st
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/pradanadimas534/pradanadimas534/output/github-contribution-grid-snake-dark.svg" width="100%" />
+<img
+  src="https://raw.githubusercontent.com/pradanadimas534/pradanadimas534/output/github-contribution-grid-snake.svg"
+  width="100%"
+  alt="GitHub Contribution Snake"
+/>
 
 <sub>just a snake doing more work than me.</sub>
 
