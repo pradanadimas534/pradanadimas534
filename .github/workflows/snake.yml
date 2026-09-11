@@ -18,17 +18,112 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: Platane/snk/svg-only@v3
+      # ==========================================
+      # GENERATE SNAKE
+      # ==========================================
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      # ==========================================
+      # CROP AREA BAWAH
+      # Menghilangkan area snake yang terlihat
+      # seperti loading bar di bawah grid
+      # ==========================================
+      - name: Crop bottom area
+        run: |
+          python <<'PY'
+          import re
+          from pathlib import Path
+
+          # Besarnya bagian bawah yang dibuang.
+          # Kalau masih kelihatan, naikkan misalnya ke 50.
+          CROP_PX = 45
+
+          files = [
+              Path("dist/github-contribution-grid-snake.svg"),
+              Path("dist/github-contribution-grid-snake-dark.svg"),
+          ]
+
+          for file in files:
+
+              if not file.exists():
+                  print(f"File not found: {file}")
+                  continue
+
+              svg = file.read_text(encoding="utf-8")
+
+              # Cari viewBox SVG
+              match = re.search(
+                  r'viewBox="(-?[\d.]+)\s+(-?[\d.]+)\s+([\d.]+)\s+([\d.]+)"',
+                  svg
+              )
+
+              if not match:
+                  print(f"viewBox not found: {file}")
+                  continue
+
+              x = float(match.group(1))
+              y = float(match.group(2))
+              width = float(match.group(3))
+              height = float(match.group(4))
+
+              new_height = max(height - CROP_PX, 1)
+
+              # Ubah viewBox
+              new_viewbox = (
+                  f'viewBox="{x:g} {y:g} {width:g} {new_height:g}"'
+              )
+
+              svg = (
+                  svg[:match.start()]
+                  + new_viewbox
+                  + svg[match.end():]
+              )
+
+              # Sesuaikan intrinsic height SVG jika tersedia
+              def replace_height(m):
+                  old_height = float(m.group(2))
+
+                  ratio = new_height / height
+                  adjusted_height = old_height * ratio
+
+                  return (
+                      m.group(1)
+                      + f"{adjusted_height:g}"
+                      + m.group(3)
+                      + m.group(4)
+                  )
+
+              svg = re.sub(
+                  r'(<svg\b[^>]*?\bheight=")([\d.]+)([a-zA-Z%]*?)(")',
+                  replace_height,
+                  svg,
+                  count=1
+              )
+
+              file.write_text(svg, encoding="utf-8")
+
+              print(
+                  f"Crop success: {file} | "
+                  f"{height:g}px -> {new_height:g}px"
+              )
+
+          PY
+
+      # ==========================================
+      # PUSH HASIL KE BRANCH OUTPUT
+      # ==========================================
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           build_dir: dist
           branch: output
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
