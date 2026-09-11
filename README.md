@@ -3,7 +3,7 @@
 
 # ✨WELCOME TO MY DASBOARD✨
 
-`Software Engineer` | `Web Builder` | `UI/UX Enjoyer` | `Professional Vibe Coder`
+`Software Engineer` | `Web Builder` | `UI/UX Enjoyer` | `Vibes`
 
 <a href="https://github.com/pradanandimas534">
   <img src="https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github&logoColor=white">
@@ -11,7 +11,7 @@
 <a href="mailto:pradanadimas534@gmail.com">
   <img src="https://img.shields.io/badge/EMAIL-EA4335?style=flat-square&logo=gmail&logoColor=white">
 </a>
-<img src="https://img.shields.io/badge/STATUS-SLEEPENG-7A5AF8?style=flat-square">
+<img src="https://img.shields.io/badge/STATUS-SLEEP-7A5AF8?style=flat-square">
 </div>
 <div>
 
