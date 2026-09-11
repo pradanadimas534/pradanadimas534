@@ -46,7 +46,7 @@ Sometimes it all starts with **being bored**, opening a prompt, trying random st
 
 </div>
 
-### 📊Contribusion
+### 📊 Contribusion
 
 <div align="center">
 
