@@ -56,8 +56,6 @@ Sometimes it all starts with **being bored**, opening a prompt, trying random st
   alt="GitHub Contribution Snake"
 />
 
-<sub>just a snake doing more work than me.</sub>
-
 </div>
 
 <div align="center">  
