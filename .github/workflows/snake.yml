@@ -43,7 +43,7 @@ jobs:
 
           # Besarnya bagian bawah yang dibuang.
           # Kalau masih kelihatan, naikkan misalnya ke 50.
-          CROP_PX = 45
+          CROP_PX = 100
 
           files = [
               Path("dist/github-contribution-grid-snake.svg"),
