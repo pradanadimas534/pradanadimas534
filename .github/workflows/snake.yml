@@ -1,9 +1,11 @@
-name: generate snake animation
+name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # regenerate tiap hari jam 00:00 UTC
-  workflow_dispatch:        # bisa juga dijalanin manual dari tab Actions
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
   push:
     branches:
       - main
@@ -12,20 +14,21 @@ jobs:
   generate:
     permissions:
       contents: write
-    runs-on: ubuntu-latest
-    steps:
-      - name: generate snake svg (warna custom senada tema cyan-biru)
-        uses: Platane/snk@v3
-        with:
-          github_user_name: pradanadimas534
-          outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%232FB6E8&color_dots=%23EEF5FF,%23D7ECFF,%235B9CF2,%23173E91&color_dot_border=%23D9E8FB
-            dist/github-contribution-grid-snake-dark.svg?color_snake=%2300E5FF&color_dots=%23132038,%23173E91,%235B9CF2,%232FB6E8&color_dot_border=%230D1730
 
-      - name: push hasilnya ke branch "output"
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
-          target_branch: output
           build_dir: dist
+          branch: output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
