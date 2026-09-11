@@ -3,7 +3,7 @@
 
 # 🔰 WONG GABUT DASHBOARD 🔰
 
-`Software Engineer` | `Web Builder` | `UI/UX Enjoyer` | `Vibes`
+`Software Engineer` | `Web Builder` | `UI/UX Enjoyer` | `AI Engginer`
 
 <a href="https://github.com/pradanandimas534">
   <img src="https://img.shields.io/badge/GITHUB-181717?style=flat-square&logo=github&logoColor=white">
