@@ -1,0 +1,65 @@
+name: Contribution Graph Generator
+
+on:
+  push:
+    paths:
+      - ".github/workflows/contribution-graph.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate contribution history
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "pradanadimas534"
+          git config user.email "pradanadimas534@gmail.com"
+
+          END_DATE="$(TZ=Asia/Makassar date +%Y-%m-%d)"
+          START_DATE="$(date -d "$END_DATE - 364 days" +%Y-%m-%d)"
+          CURRENT="$START_DATE"
+
+          mkdir -p .github
+          touch .github/contribution-log.txt
+
+          TOTAL=0
+
+          while [ "$(date -d "$CURRENT" +%s)" -le "$(date -d "$END_DATE" +%s)" ]; do
+            DAY_NUMBER=$(( $(date -d "$CURRENT" +%s) / 86400 ))
+            COUNT=$(( (DAY_NUMBER % 4) + 1 ))
+
+            for ((i=1; i<=COUNT; i++)); do
+              HOUR=$(( 8 + ((DAY_NUMBER + i * 3) % 14) ))
+              MINUTE=$(( (DAY_NUMBER * 7 + i * 13) % 60 ))
+              SECOND=$(( (DAY_NUMBER * 11 + i * 17) % 60 ))
+
+              STAMP=$(printf "%sT%02d:%02d:%02d+08:00" "$CURRENT" "$HOUR" "$MINUTE" "$SECOND")
+
+              printf "%s contribution %d\n" "$STAMP" "$i" >> .github/contribution-log.txt
+              git add .github/contribution-log.txt
+
+              GIT_AUTHOR_DATE="$STAMP" \
+              GIT_COMMITTER_DATE="$STAMP" \
+              git commit -m "chore: activity $CURRENT #$i"
+
+              TOTAL=$((TOTAL + 1))
+            done
+
+            CURRENT="$(date -d "$CURRENT + 1 day" +%Y-%m-%d)"
+          done
+
+          echo "Generated $TOTAL commits from $START_DATE through $END_DATE"
+          git push origin HEAD:main
