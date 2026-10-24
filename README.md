@@ -15,10 +15,6 @@
 </div>
 <div>
 
-### 📜 My rules
-
-Sometimes it all starts with **being bored**, opening a prompt, trying random stuff, then somehow **arguing with different AI answers**. Sometimes it **fixes the problem**, sometimes it **creates a new one**. Whatever, just **keep going slowly**. **Make it work first**, think seriously later.
-
 <div align = "center">
 
 ### 🎒 My Toolbox
