@@ -1,5 +1,5 @@
 <div align="center">
-<img  src="https://github.com/user-attachments/assets/1345057b-d0bf-46dc-b66e-1b36ddce708a" width="500" alt="回転する地球" />
+<img  src="https://github.com/user-attachments/assets/1345057b-d0bf-46dc-b66e-1b36ddce708a" width="350" alt="回転する地球" />
 
   <h1>回る地球 🌏</h1>
 
