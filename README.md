@@ -1,7 +1,4 @@
 <div align = "center">
-
-### 🎒 My Toolbox
-
 <img src="https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128" width="42" />
 &nbsp;&nbsp;&nbsp;
 <img src="https://cdn.simpleicons.org/googlegemini" width="45" />
