@@ -7,3 +7,5 @@
 
   <p><i>止まらない世界、続いていく旅。</i></p>
 </div>
+
+[@pradanaabout](https://portofolio-dimas-pradana-01.vercel.app/)
